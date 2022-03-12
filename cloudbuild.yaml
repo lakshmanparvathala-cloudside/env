@@ -1,0 +1,8 @@
+# deploy container image to GKE
+steps:
+ - name: "gcr.io/cloud-builders/gke-deploy"
+   args:
+   - run
+   - --filename=kubernetes.yaml
+   - --location=asia-south1-c
+   - --cluster=cluster
