@@ -18,7 +18,8 @@ spec:
         app: my-app
     spec:
       containers:
-      - image: asia.gcr.io/steam-potential-343206/myapp:latest
+      - image: gcr.io/steam-potential-343206/myapp:latest
+        imagePullPolicy: "Always"
         name: myapp
 
 ---
