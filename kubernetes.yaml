@@ -18,7 +18,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - image: gcr.io/steam-potential-343206/app-trigger:9be9644
+      - image: gcr.io/steam-potential-343206/app-trigger:9f0304f
         imagePullPolicy: "Always"
         name: myapp
 
